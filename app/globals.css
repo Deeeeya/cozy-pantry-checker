@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("/—Pngtree—an illustration of a pantry_3491498.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #f2bc79;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-style: solid;
+  border-color: #401708;
+  border-radius: 0 0 20px 20px;
+}
+
+.cozy-pantry {
+  font-weight: bold;
+  color: #401708;
+}
+
+.search {
+  color: #401708;
+}
+
+.searchBar {
+  background: transparent;
+  padding: 10px;
+  border-radius: 6px;
+  border-color: #401708;
+  width: 300px;
+  height: 40px;
+}
+
+.logostick {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.addItemBox {
+  width: 200px;
+  height: 50px;
+  background-color: #f2bc79;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #d98b48;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.addButton {
+  border: 1px solid #401708;
+  background-color: #593119;
+  color: white;
+}
+
+.addButton:hover {
+  border-color: #000000;
+}
+
+.addItemModal {
+  border-radius: 20px;
+  border: 2px solid #401708;
+}
+
+.addItemBtn {
+  font-size: 20px;
+  color: #401708;
+}
+
+.inventory-page {
+  /* add background image here make it cover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.head-tag {
+  border-radius: 50px;
+  border: 2px solid #f2bc79;
+  background-color: #d98b48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 30px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #593119;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.quantity-control {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.items-container {
+  width: 700px;
+  max-height: 450px;
+  gap: 10px;
+  display: flex;
+  background-color: #f2bc79;
+  flex-direction: column;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #d98b48;
+  box-shadow: 0px 5px rgba(44, 44, 44, 0.5);
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  right: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #593119;
+  border-radius: 10px 50px 50px 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-name {
+  color: #d9d9d9;
+}
+
+.btn {
+  font-size: 30px;
+  color: #d9d9d9;
+}
